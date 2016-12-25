@@ -1,58 +1,20 @@
+# Dasper
+Dasper is a [Jekyll](http://jekyllrb.com/) theme inspired by [Ghost](https://ghost.org/)'s default theme [Casper](https://demo.ghost.io/) and also [Jasper](https://biomadeira.github.io/jasper/) & [Kasper](http://rosario.io/)
 
-[**Demo**](http://webjeda.com/vyaasa/)
+## Live demo
+[ozgrozer.com](http://ozgrozer.com)
 
-# Features:
-Vyaasa is a theme made for blogs with long text paragraphs. Made to be easy on eyes as well. 
+## Includes
+- Pagination
+- 404 page
+- Fastclick([@ftlabs](https://github.com/ftlabs/fastclick))
+- Syntax highlighting([@PrismJS](https://github.com/PrismJS/prism))
+- Sitemap generator([@kinnetica](https://github.com/kinnetica/jekyll-plugins))
+- RSS generator([@agelber](https://github.com/agelber/jekyll-rss))
+- HTML compressor(a simple [plugin](https://github.com/ozgrozer/dasper/blob/master/_plugins/htmlCompressor.rb) written by me)
+- Addthis sharing buttons
+- Disquss comments
+- Google analytics tracking
 
-Suitable fonts are selected for better readability. Since the theme is created for smartphone reading, the theme is very light so that it loads instantly on a slow data connection.
-
-The theme comes with pre-installed **analytics**, **disqus** and **html compressor**. But make sure you change key parameters in the **_config.yml** file.
-
-# Installation: 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
-
-Watch my video on instlallation
-<iframe class="video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0?rel=0" frameborder="0" allowfullscreen></iframe>
-
-## How to delete old **gh-pages** branch?
-After forking the repository, click on **branches**.
-
-![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
-
-Delete ``gh-pages`` branch.
-![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
-
-You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
-
-![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
-
-Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
-
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
-
-The default theme will look like this
-
-![webjeda vyaasa jekyll theme](/images/vyaasa-jekyll-theme-1.png)
-
-
-
-A sample post would look like this
-
-![webjeda vyaasa jekyll theme sidebar](/images/vyaasa-jekyll-theme-2.png)
-
-
-This theme is made especially for smartphones.
-
-![webjeda vyaasa responsive jekyll theme](/images/vyaasa-responsive-jekyll-theme-1.png)
-
-
-# Development
-Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
-
-# License
-MIT License
-
-# Change Log
-
-### Version 0.8
-* Initial release with a reader-friendly layout.
+## Copyright & License
+Copyright (c) 2016 - Released under the MIT License.
