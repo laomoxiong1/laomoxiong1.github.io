@@ -1,20 +1,62 @@
-# Dasper
-Dasper is a [Jekyll](http://jekyllrb.com/) theme inspired by [Ghost](https://ghost.org/)'s default theme [Casper](https://demo.ghost.io/) and also [Jasper](https://biomadeira.github.io/jasper/) & [Kasper](http://rosario.io/)
+# end2end
 
-## Live demo
-[ozgrozer.com](http://ozgrozer.com)
+[![Build Status](https://travis-ci.org/nandomoreirame/end2end.svg?branch=master)](https://travis-ci.org/nandomoreirame/end2end)
 
-## Includes
-- Pagination
-- 404 page
-- Fastclick([@ftlabs](https://github.com/ftlabs/fastclick))
-- Syntax highlighting([@PrismJS](https://github.com/PrismJS/prism))
-- Sitemap generator([@kinnetica](https://github.com/kinnetica/jekyll-plugins))
-- RSS generator([@agelber](https://github.com/agelber/jekyll-rss))
-- HTML compressor(a simple [plugin](https://github.com/ozgrozer/dasper/blob/master/_plugins/htmlCompressor.rb) written by me)
-- Addthis sharing buttons
-- Disquss comments
-- Google analytics tracking
+Clean Jekyll theme
 
-## Copyright & License
-Copyright (c) 2016 - Released under the MIT License.
+> :warning:
+  This theme requires ruby and rubygems installed
+
+* [x] Clean layout
+* [x] Resposive layout
+* [x] Preprocessor SASS
+* [x] CSS minified
+* [x] Pagination
+* [x] Syntax highlight
+* [x] Author config
+* [x] Comments with Disqus
+* [ ] Search posts
+* [ ] Share posts
+
+---
+
+### Start in 4 steps
+
+1. Download or clone repo `git clone git@github.com:nandomoreirame/end2end.git`
+2. Enter the folder: `cd end2end/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve`
+
+Access, [localhost:4000/end2end](http://localhost:4000/end2end)
+
+### Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+### Using Rake tasks
+
+* Create a new page: `rake page name="contact.md"`
+* Create a new post: `rake post title="TITLE OF THE POST"`
+
+---
+
+### Demo and Download
+
+[Demo](http://nandomoreira.me/end2end/)
+[Download](https://github.com/nandomoreirame/end2end/archive/master.zip)
+
+![end2end - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+> :warning:
+  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `source/_layouts/default.html`
+
+Enjoy :yum:
